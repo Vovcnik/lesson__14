@@ -11,7 +11,7 @@
   font-display: swap;
   src: url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
 }
 
 @font-face {
