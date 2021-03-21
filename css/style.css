@@ -10,7 +10,7 @@
   font-family: "Lato-Bold";
   font-display: swap;
   src: url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -34,8 +34,8 @@
   font-family: "Lora-Bold";
   font-display: swap;
   src: url("../fonts/Lora-Bold.woff") format("woff"), url("../fonts/Lora-Bold.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 700;
+  font-style: bold;
 }
 
 @font-face {
@@ -50,8 +50,8 @@
   font-family: "PlayfairDisplay-Bold";
   font-display: swap;
   src: url("../fonts/PlayfairDisplay-Bold.woff") format("woff"), url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 700;
+  font-style: bold;
 }
 
 * {
@@ -151,7 +151,7 @@ h6 {
 }
 
 .menu__inner {
-  font-family: Lato;
+  font-family: "Lato-Bold";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -189,6 +189,8 @@ h6 {
 }
 
 .menu__menu .list a {
+  font-style: normal;
+  font-weight: 700;
   color: #222831;
   font-size: 16px;
   line-height: 175%;
@@ -296,9 +298,9 @@ h6 {
 
 .our-spaces__title {
   margin: 0px 164px 0px 0px;
-  font-family: Lora;
+  font-family: "Lora-Bold";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 40px;
   line-height: 51px;
   /* Brand Color / Primary */
@@ -309,7 +311,7 @@ h6 {
   margin: 0px 100px 0px 0px;
   width: 447px;
   height: 56px;
-  font-family: Lato;
+  font-family: "Lato-Medium";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -383,7 +385,7 @@ h6 {
 }
 
 .our-spaces__subtitle {
-  font-family: Lato;
+  font-family: "Lato-Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -421,7 +423,7 @@ h6 {
 .item-link {
   width: 72px;
   min-height: 72px;
-  font-family: Lato;
+  font-family: "Lato-Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -494,7 +496,7 @@ h6 {
 }
 
 .item-info__top {
-  font-family: Lora;
+  font-family: "Lora-Regular";
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -503,7 +505,7 @@ h6 {
 }
 
 .item-info__bootom {
-  font-family: Lato;
+  font-family: "Lato-Medium";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -521,7 +523,7 @@ h6 {
 }
 
 .item-rihgt__title {
-  font-family: Lato;
+  font-family: "Lato-Medium";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -534,7 +536,7 @@ h6 {
   font-weight: bold;
   font-size: 40px;
   line-height: 51px;
-  font-family: Lato;
+  font-family: "Lato-Bold";
   font-style: normal;
   font-weight: 700;
 }
@@ -559,7 +561,7 @@ h6 {
 }
 
 .find__title {
-  font-family: Lora;
+  font-family: "Lora-Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -611,7 +613,7 @@ h6 {
 
 .find .item__text {
   text-align: center;
-  font-family: Lora;
+  font-family: "Lora-Regular";
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -696,7 +698,7 @@ h6 {
 
 .news {
   background-color: #F8F8F8;
-  font-family: Lora;
+  font-family: "Lora-Regular";
   font-style: normal;
   font-weight: normal;
 }
@@ -714,6 +716,7 @@ h6 {
 }
 
 .news__title {
+  font-family: "Lora-Bold";
   padding: 60px 0px 56px 0px;
   font-weight: 700;
   font-size: 40px;
@@ -815,6 +818,8 @@ h6 {
 }
 
 .news__item-subtitle {
+  font-family: "Lato-Medium";
+  font-weight: normal;
   font-size: 16px;
   line-height: 162%;
   color: #9A9A9A;
